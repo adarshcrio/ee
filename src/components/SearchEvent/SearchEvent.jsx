@@ -20,7 +20,7 @@ export default function SearchEvent() {
         );
         setStates(response.data);
       } catch (error) {
-        console.error("Error fetching states:", error);rm
+        console.error("Error fetching states:", error);
       }
     };
 
