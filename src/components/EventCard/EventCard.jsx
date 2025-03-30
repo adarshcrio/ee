@@ -37,7 +37,7 @@ export default function EventCard({
             textTransform="capitalize"
             lineHeight={1}
           >
-            {details["eventName"].toLowerCase()}
+            {details["eventName"]}
           </Typography>
           <Typography
             textTransform="capitalize"
